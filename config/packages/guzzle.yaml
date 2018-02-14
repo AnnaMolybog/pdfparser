@@ -1,0 +1,7 @@
+guzzle:
+    clients:
+        gateway.doc_parser:
+            base_url: 'https://api.docparser.com/v1'
+            options:
+                auth:
+                    - '1faeda39e89fdf636e88c64b7c79a5a27d976232'

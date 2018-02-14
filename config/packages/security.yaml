@@ -18,3 +18,4 @@ security:
     access_control:
         - { path: ^/_wdt, roles: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/_profiler, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: /doc, roles: IS_AUTHENTICATED_ANONYMOUSLY }

@@ -14,4 +14,6 @@ return [
     Symfony\Bundle\AsseticBundle\AsseticBundle::class => ['all' => true],
     Symfony\Bundle\FrameworkBundle\FrameworkBundle::class => ['all' => true],
     App\AppBundle\AppBundle::class => ['all' => true],
+    Nelmio\ApiDocBundle\NelmioApiDocBundle::class => ['all' => true],
+    EightPoints\Bundle\GuzzleBundle\GuzzleBundle::class => ['all' => true],
 ];
